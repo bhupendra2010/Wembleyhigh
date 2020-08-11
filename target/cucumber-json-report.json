@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9720903600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.open()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "user-can-find-school-homework;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 244736300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on school homepage",
+            "match": {
+              "location": "StepDef.user_is_on_school_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1979489400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to school learning",
+            "match": {
+              "location": "StepDef.user_navigate_to_school_learning()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2118059900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should able to select required date homework",
+            "match": {
+              "location": "StepDef.user_should_able_to_select_required_date_homework()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can find school homework",
+    "description": "",
+    "id": "user-can-find-school-homework",
+    "keyword": "Feature",
+    "uri": "C:/Users/bhupe/WembleyHigh/src/test/Resources/school.feature"
+  }
+]

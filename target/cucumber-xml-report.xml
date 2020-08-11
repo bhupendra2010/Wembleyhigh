@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.063189">
+<testcase classname="User can find school homework" name="" time="14.063189">
+<system-out><![CDATA[Given User is on school homepage............................................passed
+When User navigate to school learning.......................................passed
+Then User should able to select required date homework......................passed
+]]></system-out>
+</testcase>
+</testsuite>
