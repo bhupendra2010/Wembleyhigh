@@ -10,7 +10,7 @@ public class Home extends DriverFactory {
 
     public void baseurl(){
         driver.getCurrentUrl();
-        driver.findElement(By.id("_cb_accept")).click();
+        //driver.findElement(By.id("_cb_accept")).click();
     }
 public void learning(){
     Actions act=new Actions(driver);

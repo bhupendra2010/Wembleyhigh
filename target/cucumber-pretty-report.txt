@@ -1,6 +1,6 @@
-Feature: User can find school homework
+Feature: School offset report
 
-  Scenario:                                                [90m# C:/Users/bhupe/WembleyHigh/src/test/Resources/school.feature:3[0m
-    [32mGiven [0m[32mUser is on school homepage[0m                       [90m# StepDef.user_is_on_school_homepage()[0m
-    [32mWhen [0m[32mUser navigate to school learning[0m                  [90m# StepDef.user_navigate_to_school_learning()[0m
-    [32mThen [0m[32mUser should able to select required date homework[0m [90m# StepDef.user_should_able_to_select_required_date_homework()[0m
+  Scenario: offset reports                                [90m# C:/Users/bhupe/WembleyHigh/src/test/Resources/offset.feature:3[0m
+    [32mGiven [0m[32mUser is on school homepage[0m                      [90m# StepDef.user_is_on_school_homepage()[0m
+    [32mWhen [0m[32mUser navigate to Results and find offset reports[0m [90m# StepDefOffset.user_navigate_to_Results_and_find_offset_reports()[0m
+    [32mThen [0m[32mUser can access any offset report[0m                [90m# StepDefOffset.user_can_access_any_offset_report()[0m

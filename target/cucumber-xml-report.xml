@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.063189">
-<testcase classname="User can find school homework" name="" time="14.063189">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.311138">
+<testcase classname="School offset report" name="offset reports" time="10.311138">
 <system-out><![CDATA[Given User is on school homepage............................................passed
-When User navigate to school learning.......................................passed
-Then User should able to select required date homework......................passed
+When User navigate to Results and find offset reports.......................passed
+Then User can access any offset report......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

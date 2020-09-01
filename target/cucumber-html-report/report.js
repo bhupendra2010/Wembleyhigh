@@ -1,20 +1,20 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/bhupe/WembleyHigh/src/test/Resources/school.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/bhupe/WembleyHigh/src/test/Resources/offset.feature");
 formatter.feature({
   "line": 1,
-  "name": "User can find school homework",
+  "name": "School offset report",
   "description": "",
-  "id": "user-can-find-school-homework",
+  "id": "school-offset-report",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 9720903600,
+  "duration": 8819533000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 3,
-  "name": "",
+  "name": "offset reports",
   "description": "",
-  "id": "user-can-find-school-homework;",
+  "id": "school-offset-report;offset-reports",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -25,33 +25,33 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "User navigate to school learning",
+  "name": "User navigate to Results and find offset reports",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "User should able to select required date homework",
+  "name": "User can access any offset report",
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.user_is_on_school_homepage()"
 });
 formatter.result({
-  "duration": 244736300,
+  "duration": 102577500,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDef.user_navigate_to_school_learning()"
+  "location": "StepDefOffset.user_navigate_to_Results_and_find_offset_reports()"
 });
 formatter.result({
-  "duration": 1979489400,
+  "duration": 1232429800,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDef.user_should_able_to_select_required_date_homework()"
+  "location": "StepDefOffset.user_can_access_any_offset_report()"
 });
 formatter.result({
-  "duration": 2118059900,
+  "duration": 156597700,
   "status": "passed"
 });
 });
